@@ -29,16 +29,7 @@ function Chat() {
 
   return (
     <div>
-      {console.log(messages)}
-      <button onClick={() => sendMessageChat('hi') }>Mandar</button>
-      <div><p>Olá</p>
-        {messages && messages.map((item, key) => (
-        <div>
-          <p key={key}>{item.text}</p>
-          <p>{item.type}</p>
-        </div>
-        ))}
-       </div>
+      <h1>teste</h1>
     </div>
 );
 }
