@@ -1,11 +1,12 @@
 import React from 'react';
+import AppProvider from './hooks';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Chat</h1>
-    </div>
-  );
-}
+import Chat from './pages/Chat';
+
+const App = () => (
+    <AppProvider>
+      <Chat />
+    </AppProvider>
+);
 
 export default App;
